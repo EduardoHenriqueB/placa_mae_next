@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-orange-950;
+  font-family: Arial, sans-serif;
+  margin: 0 auto; /* Aplica a fonte Arial e fallback para fontes sans-serif */
+}
